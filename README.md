@@ -1,3 +1,15 @@
+
+
+[En pratique : création d'une todo-list](https://dyma.fr/developer/list/v2/chapters/core/64380a88eb91ca601832ac74/643900c7eb91ca6018334046/lesson)
+
+[documentation de prisma directement ici](https://www.prisma.io/)
+[configuration spécifique pour Next.js](https://www.prisma.io/nextjs)
+[Mongo Atlas](https://www.mongodb.com/fr-fr/products/platform/atlas-database)
+
+mongoDB usr=oldu73 pwd=bZFR7OEpzAigQoaq
+
+---
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
