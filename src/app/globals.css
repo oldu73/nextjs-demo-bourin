@@ -154,10 +154,12 @@ header ul {
 }
 
 .post {
-  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: #f1f8fe;
 }
 
 .post button {
@@ -167,6 +169,7 @@ header ul {
 form {
   display: flex;
   margin-bottom: 20px;
+  gap: 10px;
 }
 
 form input[type="text"] {
@@ -174,6 +177,22 @@ form input[type="text"] {
   padding: 10px;
   border-radius: 10px;
   border: 1px solid grey;
+}
+
+.form-cmn {
+  background-color: #bddffa;
+}
+
+button {
+  margin: 10px 10px 10px 0;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid grey;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
 }
 
 form input[type="submit"] {

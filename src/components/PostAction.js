@@ -4,17 +4,22 @@ import { useRouter } from "next/navigation";
 
 const PostAction = ({ post }) => {
   const router = useRouter();
-  const handleClick = () => {
+  const handleClick = (isDone = true) => {
     fetch("/api/posts", {
       method: "PATCH",
       body: JSON.stringify({
         id: post.id,
-        isDone: true,
+        isDone: isDone,
       }),
     }).then(() => router.refresh());
   };
 
-  return <button onClick={handleClick}>Terminer</button>;
+  return (
+    <div className="button-group">
+      <button onClick={() => handleClick()}>Terminer</button>
+      <button onClick={() => handleClick(!post.isDone)}>Toggle</button>
+    </div>
+  );
 };
 
 export default PostAction;

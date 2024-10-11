@@ -23,7 +23,7 @@ const PostForm = () => {
       });
   };
   return (
-    <div>
+    <div className="form-cmn">
       <Counter />
       <form onSubmit={handleSubmit}>
         <input type="text" name="title" placeholder="Votre titre" />
