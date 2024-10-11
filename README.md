@@ -1,4 +1,9 @@
 
+## current lesson
+
+[useRouter](https://dyma.fr/developer/list/v2/chapters/core/6446d0e34b84436858ff303d/6448bc54cc95ebd0d4937635/lesson)
+
+---
 
 [En pratique : création d'une todo-list](https://dyma.fr/developer/list/v2/chapters/core/64380a88eb91ca601832ac74/643900c7eb91ca6018334046/lesson)
 
