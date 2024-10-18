@@ -1,7 +1,9 @@
 
 ## current lesson
 
-[useRouter](https://dyma.fr/developer/list/v2/chapters/core/6446d0e34b84436858ff303d/6448bc54cc95ebd0d4937635/lesson)
+[useParams et useSearchParams](https://dyma.fr/developer/list/v2/chapters/core/6446d0e34b84436858ff303d/6448bd1dcc95ebd0d49376af/lesson)
+
+video at ?? minutes
 
 ---
 
